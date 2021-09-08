@@ -3,6 +3,8 @@ package Intro;
 
 //Referências as bibliotecas
 
+import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
+
 import java.util.Scanner;
 
 //classe
@@ -20,6 +22,16 @@ public class Medidas {
                             + "e o comprimento de " + comprimento +" m² "
                             + "formam uma área de " + largura * comprimento + " m²");
 
+
+        System.out.println();
+        System.out.println("MENU DE OPÇÕES");
+        System.out.println("a - ");
+        System.out.println("b - ");
+        System.out.println("c - FOR");
+        System.out.println("d - WHILE");
+
+
+
         Scanner sc = new Scanner(System.in);
 
         String opcao = sc.next();
@@ -33,6 +45,10 @@ public class Medidas {
             case "c":
                 System.out.println("Voce escolheu usar o For");
                 usandoFor();
+                break;
+            case "d":
+                System.out.println("Você escolheu usar While");
+                usandoWhile();
                 break;
         }
 
@@ -74,6 +90,13 @@ public class Medidas {
 
     }
 
+    public static void usandoWhile(){
+     int numero = 1;
+        while(numero<=10){
+            System.out.println("Ainda está menor ou igual " + numero);
+        numero = numero +1;
+        }
+    }
 
 
 
