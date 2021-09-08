@@ -32,6 +32,33 @@ public class Medidas {
                 break;
         }
 
+        System.out.println("Digite de 1 a 7");
+        int diasSemana = sc.nextInt();
+
+        if(diasSemana==1){
+            System.out.println("segunda-feira");
+        }
+        else if(diasSemana==2){
+            System.out.println("terça-feira");
+        }
+        else if(diasSemana==3){
+            System.out.println("quarta-feira");
+        }
+        else if(diasSemana==4){
+            System.out.println("quinta-feira");
+        }
+        else if(diasSemana==5){
+            System.out.println("sexta-feira");
+        }
+        else if(diasSemana==6){
+            System.out.println("sábado");
+        }
+        else if(diasSemana==7){
+            System.out.println("domingo");
+        }
+        else{
+            System.out.println("Digitou errado");
+        }
     }
 
 }
