@@ -30,6 +30,10 @@ public class Medidas {
             case "b":
                 System.out.println("Opção B");
                 break;
+            case "c":
+                System.out.println("Voce escolheu usar o For");
+                usandoFor();
+                break;
         }
 
         System.out.println("Digite de 1 a 7");
@@ -60,5 +64,19 @@ public class Medidas {
             System.out.println("Digitou errado");
         }
     }
+    public static void usandoFor(){
 
-}
+        System.out.println("Usando for");
+
+        for(int i=1; i<=10; i++ ){
+            System.out.println(i);
+        }
+
+    }
+
+
+
+
+    }
+
+
